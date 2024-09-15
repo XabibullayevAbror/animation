@@ -1,0 +1,52 @@
+.box{
+    width: 200px;
+    height: 200px;
+    animation-name: war;
+    background-color: red;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+@keyframes war{
+    0%{
+        left: 0;
+    }
+
+    12%{
+        margin-left: 200px;
+    }
+
+    24%{
+        margin-left: 400px;
+        background-color: black;
+    }
+
+    36%{
+        margin-left: 600px;
+        background-color: pink;
+    }
+
+    50%{
+        margin-left: 800px;
+        background-color: blue;
+    }
+
+    62%{
+        margin-left: 600px;
+    }
+
+    74%{
+        margin-left: 400px;
+        background-color: black;
+    }
+
+    86%{
+        margin-left: 200px;
+        background-color: pink;
+    }
+
+    100%{
+        margin-left: 0px;
+        background-color: blue;
+    }
+}
